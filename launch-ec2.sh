@@ -9,6 +9,11 @@ SECURITY_GROUP="sg-074b393c038227f9e"  # Replace with your actual security group
 KEY_PAIR="demo"  # Just the name of the key pair, not the .pem file
 INSTANCE_TYPE="t2.micro"  # Example instance type, adjust as needed
 
+ # Set AWS credentials (Make sure to store them securely)
+export AWS_ACCESS_KEY_ID="AKIAVRUVVR5ISFUIGMOR"
+export AWS_SECRET_ACCESS_KEY="aOjQ1+ckLtXHtJnJ36ZodT6uM+akTsr7SKSYBxtu"
+export AWS_DEFAULT_REGION="$REGION"
+
 # Generate a random name for the instance
 INSTANCE_NAME="Instance-$(date +%s)-$RANDOM"
 
