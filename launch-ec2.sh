@@ -10,8 +10,8 @@ KEY_PAIR="key1"  # Just the name of the key pair, not the .pem file
 INSTANCE_TYPE="t3.micro"  # Example instance type, adjust as needed
 
  # Set AWS credentials (Make sure to store them securely)
-export AWS_ACCESS_KEY_ID="AKIA5IUM3ZHEYH5O6E75"
-export AWS_SECRET_ACCESS_KEY="zH314kxTWbBYD55J5oIp3J24So9kZuLcXTKF2zCM"
+export AWS_ACCESS_KEY_ID=""
+export AWS_SECRET_ACCESS_KEY=""
 export AWS_DEFAULT_REGION="$REGION"
 
 # Generate a random name for the instance
