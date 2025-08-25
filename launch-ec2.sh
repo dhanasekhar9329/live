@@ -7,7 +7,7 @@ set -x
 REGION="us-east-1"
 SECURITY_GROUP="sg-04f749d01bddcd0d5"  # Replace with your actual security group ID
 KEY_PAIR="key1"  # Just the name of the key pair, not the .pem file
-INSTANCE_TYPE="t2.micro"  # Example instance type, adjust as needed
+INSTANCE_TYPE="t3.micro"  # Example instance type, adjust as needed
 
  # Set AWS credentials (Make sure to store them securely)
 export AWS_ACCESS_KEY_ID="AKIA5IUM3ZHEYH5O6E75"
