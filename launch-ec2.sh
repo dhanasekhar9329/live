@@ -35,4 +35,3 @@ echo "Instance name: $INSTANCE_NAME"
 
 # Save the Instance ID to a file for future use
 echo $INSTANCE_ID > instance_id.txt
-print "welcome"
